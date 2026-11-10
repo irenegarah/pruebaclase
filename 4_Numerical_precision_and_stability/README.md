@@ -4,7 +4,7 @@
 - `roofline_ops.py` – operations (`y=Ax`, `C=AB`), FLOP/byte models, timing helper (allocation excluded from the timed region, `out=` buffers preallocated).
 - `benchmark.py` – runs all sizes for float32/float64, writes `results/results.csv` and `results/machine.txt` (incl. a STREAM-like bandwidth estimate).
 - `plot_results.py` – generates `results/plots/*.png` (time vs N, GFLOP/s and GB/s vs N, roofline, float32 speedup).
-- `REPORT.md` – draft of the technical report.
+- `build_report.py` – builds `report.html` and `report.pdf` (the technical report submitted to Atenea) from `results/`.
 
 ## Reproduce
 ```bash
