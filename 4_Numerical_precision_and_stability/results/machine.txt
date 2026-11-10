@@ -1,0 +1,4 @@
+platform: macOS-14.4.1-arm64-arm-64bit-Mach-O
+processor: arm
+numpy: 2.3.2
+stream_like_GBs: {'float32': 80.55188367603303, 'float64': 80.66779478306368}
